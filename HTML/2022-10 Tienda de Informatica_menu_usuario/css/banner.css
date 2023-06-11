@@ -1,0 +1,66 @@
+/* Banner de la pagina */
+.banner{
+    margin-top: 210px;
+    position: relative;
+    widows: 100%;
+    height: calc(108vh - 50px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../fotos/banner.jpg);
+    z-index: 0;
+}
+
+/*Dar forma a la ca para que se vea*/
+.capa{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  rgba(0, 0, 0, 0.75);
+}
+
+/*Dar forma a los contenido*/
+.contenido{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Dar forma al titulo */
+.contenido h1{
+    margin: 20px;
+    font-size: 30px;
+}
+
+/* Dar forma los textos */
+.contenido p{
+    margin: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/*Hacer que se vea como un boton*/
+.contenido .button{
+    text-decoration: none;
+    color: white;
+    padding: 9px 20px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+    width: 150px;
+}
+
+/* Cambiar la formar cuando pasa el raton */
+.contenido .button:hover{
+    background-color: white;
+    color: #333;
+}

@@ -1,0 +1,82 @@
+section {
+  width: 100%;
+  display: inline-block;
+  height: 150vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+/*Cofigurar la seccion para el pie*/
+
+.pie_pagina {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+/*Poner el fondo de osculo al pie*/
+
+.pie_pagina .pie_izquierda p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Poner color y tamaño de la frase de la pie */
+
+.pie_pagina p.pie_enlaces {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease .25s;
+}
+/* Poner color y tamaño de la palablas del pie */
+
+.pie_pagina p.pie_enlaces a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease .25s;
+}
+/* Poner color y decolacion de la palablas del pie */
+
+.pie_pagina .pie_derecha {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+/*Poner posicion de los iconos*/
+
+.pie_pagina .pie_derecha a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+/*Dar forma a las letras*/
+
+.pie_pagina .pie_derecha a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+/*Animacion para los iconos*/
+
+.pie_pagina p.pie_enlaces a:hover{text-decoration:underline;}
+/*Animacion para los textos de pie*/
+
+.fotos_pie{
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+/*Ajustar tamaño de los iconos*/

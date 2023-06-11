@@ -1,0 +1,70 @@
+<html lang="es">
+<head>
+	<title>Tienda online</title>
+	<link rel="shortcut icon" href="Imagen\icono.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="CSS\General.css">
+	<link rel="stylesheet" type="text/css" href="CSS\Formulario.css">
+	<script src="js\Captcha.js"></script>
+	<!-- Para generar captchar aleatorios -->
+	<script src="js\Aviso_login.js"></script>
+	<script src="js\Carga_Principal.js"></script>
+</head>
+
+<body>
+
+	<table width="100%">
+		<tr>
+			<th align="left"><a href="index.html"><img id="Tienda_online" src="Imagen\Tienda_online.png"/></a></th>
+		</tr>
+	</table>
+
+<br/>
+<hr/ color="#DEF1F4">
+<br/>
+
+
+<form class="formulario">
+	<h2>Login</h2>
+	<div class="contenedor">
+
+		<div class="input-formulario">
+			<img id="icon-formulario" src="Imagen\icon\usuario.svg"/>
+			<input type="text" placeholder="Usuario">
+		</div>
+		
+		<div class="input-formulario">
+			<img id="icon-formulario" src="Imagen\icon\contra.svg"/>
+			<input type="password" placeholder="Contrase&ntilde;a">
+		</div>
+		
+		<div class="input-formulario">
+			<img id="icon-formulario" src="Imagen\icon\captcha.svg"/>
+			<input type="text" placeholder="Captcha"> <SCRIPT  class="captcha-aleatoria" language="javascript">document.write("<IMG SRC=" +imagealeatoire() +" WIDTH=60 HEIGHT=30 BORDER=0>");</SCRIPT>
+		</div>
+		
+		<script src="js\Aviso_login.js"></script>
+		<!-- Para salta un aviso al dar login -->
+		<input type="submit" value="Login" onclick="alerta()" class="button"/>
+		<p>Al registrarte, envia su informacion a nuestro administrador para confirma su registro.</p>
+		<p>&iquest;No tiene una cuenta?<a class="link" href="Registrar.html">Registrate</a></p>	
+		<p><a class="link" href="Olvidarcontra.html">&iquest;Has olvidar contrase&ntilde;a?</a></p>	
+	</div>
+</form>
+<!-- Formurario para los dato -->
+
+<footer>
+<br/>
+<hr color="#DEF1F4"/>
+<br/>
+
+	<table width="100%">
+		<tr align="center">
+			<td>
+				<a href="https://facebook.com/"><img id="iconSocial" src="Imagen\facebook.png"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="https://www.instagram.com/"><img id="iconSocial" src="Imagen\instagram.png"/></a>
+			</td>
+		</tr>
+	</table>
+</footer>
+</body>
+</html>

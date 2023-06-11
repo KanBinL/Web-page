@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+}
+/* relleno para el ancho o alto de un elemento */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin:0;
+	background-image: url("../Imagen/fondo.jpg");
+	background-size: cover;/* quitar doblicado */
+	background-attachment: fixed;/* pegado a la pagina */
+}
+/* Cambiar fuente de letra, Poner fondo, definirle el tamaño(que no duplique) */
+
+a, input[type="button"] {
+	cursor: hand;
+}
+/* Cambiar icono del cursor */
+
+.boton-inicio{
+	border: none;
+	color: black;
+	font-size: 20px;
+	background: #FFFFFF;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor; pointer;
+}
+/* Quitar borde, ancho, color, tamaño, fondo.... de boton  */
+
+.boton-inicio:hover{
+	background: cadetblue;
+}
+/* efecto de color al poner raton */
+
+.BotonMenu{
+	border: none;
+	color: black;
+	font-size: 15px;
+	background: #FFFFFF;
+	padding: 10px 30px;
+	border-radius: 5px;
+	cursor; pointer;
+	font-weight:600;
+}
+/* Quitar borde, ancho, color, tamaño, fondo.... de boton  */
+
+.BotonMenu:hover{
+	background: #959595;
+}
+/* efecto de color al poner raton */
+
+#Imagen-inicial{
+	width: 200;
+	height: 150;
+}
+/* definir tamaño para foto de los profuctos*/
+
+#Tienda_online{
+	width: 270;
+	height: 70;
+}
+/* definir tamaño para titulo de la pagina */
+
+#TituloP {
+	color:#FFFAA0;
+	text-align: left;
+}
+/* El color y la alineacion del titulo */
+
+#NombreComida {
+	color : black;
+	text-decoration: none;
+}
+/* Color para el nombre de Productos */
+
+#NombreComida:visited {
+	color : #1E1D1D;
+}
+/* Cambiar color al dar clik */	
+
+#NombreComida:hover{
+	color: cadetblue;
+}
+/* Cambiar de color al pone el raton encima de los nombres de comida */	
+
+#NombreRobot {
+	color : black;
+	text-decoration: none;
+}
+/* Color de los nombres */	
+
+#NombreRobot:visited {
+	color : #1E1D1D;
+}
+
+#NombreRobot:hover{
+	color: cadetblue;
+}
+/* Cambiar de color al pone el raton encima de los nombres de comida */	
+
+#iconSocial{
+	width:50px; 
+	height:50px;
+}
+/* Tamaño para image de facebook y instagram */
+
+#icon-formulario{
+	width:20px; 
+	height:20px;
+}
+/* Tamaño de icono para registros */

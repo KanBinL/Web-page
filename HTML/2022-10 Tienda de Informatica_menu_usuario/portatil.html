@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="fotos/icono.jpg">
+        <link rel="stylesheet" type="text/css" href="css/general.css"/>
+        <link rel="stylesheet" type="text/css" href="css/menu.css"/>
+        <link rel="stylesheet" type="text/css" href="css/pie.css"/>
+        <link rel="stylesheet" type="text/css" href="css/productos.css"/>
+        <title>Tienda de informatica</title>
+    </head>
+    <body>
+        <header>
+            <!-- Parte superio donde esta logo y el buscador -->
+            <div class="hearder_superior">
+                <!-- icono del menu -->
+                <div class="logo"><a href="index.html"><img class="logo" src="fotos/logo.png" alt="Logo de menu"></a></div>
+                <div class="buscador">
+                    <input type="search" placeholder="¿Que deseas buscar?">
+                </div>
+            </div>
+            <div class="cuerpo-menu">
+                <nav class="menu">
+                    <ul>
+                        <li><a href="index.html" id="selected"></a></li>
+                        <li><a href="#">Cuenta</a>
+                            <ul>
+                                <li><a href="iniciar.html">Iniciar sesión</a></li>
+                                <li><a href="registrarse.html">Registrarse</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Producto</a>
+                            <ul>
+                                <li><a href="portatil.html">Portátil</a></li>
+                                <li><a href="#">Ordenador</a></li>
+                                <li><a href="#">Pantalla</a></li>
+                                <li><a href="#">Componentes</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="nosotros.html">Nosotros/Valoración</a></li>
+                        <li><a href="#"><img id="carrito" src="fotos/carrito.png" alt="Carrito">Carrito</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <!-- Contenido de la pagina -->
+        <main>
+            <h1 class="title">Ofertas del dia</h1>
+            <div class="container">
+                <div class="card">
+                    <img src="fotos/producto1.webp">
+                    <h4>Acer Nitro 5 AN517-41-R53X AMD Ryzen 7 5800H/32GB/1TB SSD/RTX3080/17.3"</h4>
+                    <p>Explora tus juegos con un nivel de detalle mucho mayor gracias a los nítidos gráficos de las pantallas IPS FHD de 17,3" o 15,6".</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="card">
+                    <img src="fotos/producto2.webp">
+                    <h4>MSI Pulse GL76 12UEK-245XES Intel Core i9-12900H/32GB/1TB SSD/RTX 3060/17.3"</h4>
+                    <p>Tu viaje comienza aquí. El Pulse GL76 está equipado con los últimos procesadores Intel® Core ™ i7 de 12.ª generación y gráficos de la serie NVIDIA® GeForce RTX ™ 30.</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="card">
+                    <img src="fotos/producto3.webp">
+                    <h4>Lenovo IdeaPad 3 15ITL6 Intel Core i5-1135G7/8 GB/512GB SSD/15.6"</h4>
+                    <p>Justo el rendimiento que necesitas. ¿Buscas un portátil de gama básica lo suficientemente potente para que te ayude a sacar el trabajo adelante?</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- Pie de la pagina -->
+        <footer class="pie_pagina">
+            <div class="grupo1">
+                <div class="box">
+                    <figure>
+                        <a href="index.html">
+                            <img id="logo_pie" src="fotos/logo_pie.png" alt="logo">
+                        </a>
+                    </figure>
+                </div>
+
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p>Somos una tienda que vende todos tipos productos relacionados con el mundo informático.</p>
+                    <p>Enteraremos encontrar mejores ofertas para los clientes, y así satisfacerlo.</p>
+                </div>
+
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red_social">
+                        <a href="https://www.facebook.com/"><img src="fotos/facebook.png" class="fotos_pie"/></a>
+                        <a href="https://twitter.com/"><img src="fotos/twitter.png" class="fotos_pie"/></a>
+                        <a href="https://www.linkedin.com/"><img src="fotos/linkedin.png" class="fotos_pie"/></a>
+                        <a href="https://github.com/"><img src="fotos/gitgub.png" class="fotos_pie"/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grupo2">
+                <small>&copy; 2022 <b>KanBin Lou</b> - Todos los Drechos Reservados</small>
+            </div>
+        </footer>
+    </body>
+</html>

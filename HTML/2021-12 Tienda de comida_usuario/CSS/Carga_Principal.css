@@ -1,0 +1,45 @@
+.loading {
+	position: fixed;
+	/* posicion */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	background-color: #000000;
+	/* para pagina de cargas */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* alineacion */
+	z-index: 9999;
+	transition: 1s all;
+	/* trasicion para el la pagina de 1s */
+	opacity: 0;
+}
+
+.loading.show {
+	opacity: 1;
+}
+
+
+.loading .spin {
+	border: 3px solid hsla(185, 100%, 62%, 0.2);
+	/* tiene un borde solido */
+	border-top-color: #FFFFFF;
+	/* color de la carga */
+	border-radius: 50%;
+	width: 3em;
+	height: 3em;
+	/* tamaño */
+	animation: spin 1s linear infinite;
+		/* animacion de girar */
+}
+
+
+@keyframes spin {
+  to {
+	transform: rotate(360deg);
+		/* que rote en 360 grados */
+  }
+}      

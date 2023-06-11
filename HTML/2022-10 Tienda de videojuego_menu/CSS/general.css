@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font:12pt Arial;
+}
+/*Definir margen y fuentes general*/
+
+body {
+    background-image: url("../Fotos/fondo.jpg");
+    /*Poner fondo*/
+    background-repeat: no-repeat;
+    /*No repitir las imagenes de fondo*/
+    background-size: cover;
+    /*Poner tamaño completo*/
+    background-attachment: fixed;
+    /*Ajustar la imagenes*/
+  }

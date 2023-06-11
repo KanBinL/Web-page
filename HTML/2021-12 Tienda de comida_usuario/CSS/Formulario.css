@@ -1,0 +1,88 @@
+.contenedor{
+	width:100%;
+	padding: 15px;
+}
+/* Definir la posicion contenido del formulario*/
+
+.formulario{
+	background: #fff;
+	margin-top: 150px;
+	padding: 3px;
+}
+/* Definir la posicion y fondo del formulario*/
+
+h2{
+	text-align: center;
+	Color: #000000;
+	font-size: 40px;
+}
+/* Definir la Tamaño y pisicion y color del texto h2*/
+
+input[type="text"], input[type="password"], input[type="email"] {
+	font-size: 20px;
+	width: 82%;
+	padding: 10px;
+	border: none;
+}
+/* Definir la Tamaño y pisicion y borde*/
+
+.input-formulario {
+	margin-bottom: 15px;
+	border: 1px solid #aaa;
+	white-space:nowrap; 
+	/* Esforzar la image para que no se cambie de linea */
+}
+/* Encerrar icono en un borde */
+
+.icon{
+	min-width: 50px;
+	text-align: center;
+	color: #999;
+}
+/* Definir ancho minimo, alinear, color de los icono */
+
+.button{
+	border: none;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	background: #000000;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor; pointer;
+}
+/* Quitar borde, ancho, color, tamaño, fondo.... de boton  */
+
+.button:hover{
+	background: cadetblue;
+}
+/* efecto de color al poner raton */
+
+p{
+	text-align: center;
+	bold: none;
+}
+/* alinear */
+
+.link{
+	text-decoration: none;
+	color: #000000;
+	font-weight:600;
+}
+/* Quitar surrayado, poner color, definir */
+
+.link:hover{
+	color: cadetblue;
+}
+/* efecto de color al poner raton */
+
+@media(min-width:768px)
+{
+	.formulario{
+		margin: auto;
+		width: 500px;
+		border-radius: 2%;
+		/* redondear esqina */
+	}
+}
+/* Poner codicion cuando cambia la pagina, se adapte el formulario */

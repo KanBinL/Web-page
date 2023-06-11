@@ -1,0 +1,41 @@
+.juegos{
+    width: 100%;
+    height: 550px;
+    margin-top: 70vh;
+}
+/*Poner un tamaño al seccion de juegos*/
+
+.cajas_juego{
+    width: 250px;
+    height: 400px;
+    margin-left: 11%;
+    float:left;
+    display: flex;
+    border: 2px solid white;
+}
+/*Caja para el juego*/
+
+.fotos_juego{
+    width: 100%;
+    height: 80%;
+    background-attachment: fixed;
+}
+/*Darle tamaño las fots*/
+
+.descripcion_juego{
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 55px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 26px;
+}
+/*Poton para entra a la descripcion*/
+
+.descripcion_juego:hover{
+    background: #d0d0d0;
+    color: #fff;
+    border-radius: 26px;
+    transition: ease-in all 0.5s;
+}
+/*Luego de dar click lo que sale*/
